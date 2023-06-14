@@ -1,0 +1,66 @@
+* {
+  background-color: #D9CDF7;
+}
+
+.anuncio-sofa {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.descricao-sofa p {
+  font-family: 'Lato', sans-serif;
+  width: 75px;
+  height: 10px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 100%;
+  color: #271A45;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.descricao-sofa h2 {
+  font-family: 'Crimson Pro', sans-serif, ;
+  width: 274px;
+  height: 32px;
+  font-family: 'Crimson Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  color: #271A45;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.descricao-sofa h4 {
+  width: 65px;
+  height: 16px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #271A45;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.botao-cesta {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #271A45;
+  align-items: center;
+  border: 0.5px solid;
+  padding: 10px 20px 10px 20px;
+  border-radius: 80px;
+}
